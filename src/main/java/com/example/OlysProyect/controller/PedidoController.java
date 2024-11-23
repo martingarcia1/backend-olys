@@ -82,7 +82,7 @@ public class PedidoController {
                     .items(items)
                     .backUrls(backUrlsRequest)
                     .additionalInfo(""+pedidoAGuardar.getId())
-                    .notificationUrl("https://protective-love-production.up.railway.app/api/mp/webhook")
+                    .notificationUrl("https://protective-heart-production.up.railway.app/api/mp/webhook")
                     .build();
 
             PreferenceClient client = new PreferenceClient();
