@@ -14,7 +14,7 @@ public class CorsConfig {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(List.of("http://localhost:5173")); // Permitir el origen del frontend
+        config.setAllowedOrigins(List.of("https://www.mngss.online")); // Permitir el origen del frontend
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE")); // Métodos permitidos
         config.setAllowedHeaders(List.of("*")); // Permitir todos los headers
         config.setExposedHeaders(List.of("Authorization"));// Permitir credenciales (importante si estás trabajando con cookies o JWT)
